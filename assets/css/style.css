@@ -1,0 +1,49 @@
+body {
+    background: #ffffff url(../img/fundo.png) repeat-x;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.logo {
+     margin-top: 5%;
+}
+
+nav {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul{
+    margin: 20px;
+    float: right;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+
+}
+
+nav ul li a:link {
+    float: left;
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    
+}
+
+a:link, a:active, a:visited {
+    color: azure;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aqua;
+}
